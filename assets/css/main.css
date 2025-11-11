@@ -809,6 +809,31 @@ section,
   color: var(--default-color);
 }
 
+.hero .back-to-trade-btn {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-back-to-trade {
+  display: inline-block;
+  padding: 12px 30px;
+  background-color: var(--accent-color);
+  color: var(--contrast-color);
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 4px;
+  transition: 0.3s;
+  text-decoration: none;
+  border: 2px solid var(--accent-color);
+}
+
+.btn-back-to-trade:hover {
+  background-color: color-mix(in srgb, var(--accent-color), transparent 10%);
+  color: var(--contrast-color);
+}
+
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
